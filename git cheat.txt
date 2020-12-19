@@ -1,0 +1,15 @@
+browser-sync start --server --directory --files "*" -->start browser sync
+git branch -->to know branch
+git checkout (branch name) -->to change branch
+
+commit steps
+1)git status-->to check if the file is stage(red)
+2)git add .-->to stage the changes
+3)git status-->to check if the file is stage or not(green)
+4)git commit -m"message"-->let git hub know the commit with a message
+5)git push-->to finaly move all the changes to respective branch
+
+merge steps
+1)git checkout (respective branch)-->to change branch
+2)git merge (respective branch)-->to bringe changes to one branch to another
+3)git push-->to move all changes to respective branch
