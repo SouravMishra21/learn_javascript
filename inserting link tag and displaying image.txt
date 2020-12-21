@@ -1,0 +1,21 @@
+<a href="(link to put)"></a>
+
+<a href="link" target="_blank"(to open in new tag)></a>
+
+LINK FOR EVERY SECTION OF PAGE:-
+<body>
+<section>
+   <ul>
+       ***link to the every section of the page***
+      <li><a href="#section1">#section1</a></li>
+   </ul>
+</section>
+<section id="#section1">
+<p>*****************</p>
+</section>
+</body>
+
+DISPLAYING IMAGE:-
+<body>
+<img scr="image url">
+</body>

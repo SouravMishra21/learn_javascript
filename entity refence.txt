@@ -1,0 +1,4 @@
+< = &gt;
+> = &lt;
+copyright symbol = &copy;
+" = &quot;
