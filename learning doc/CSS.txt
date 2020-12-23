@@ -1,0 +1,15 @@
+CSS selectors:-
+element
+class(start with ".")
+id(start with "#")
+
+Eg- <style>
+__     ,.__ , #__ { 
+                    declarations: value;
+                  }                  
+    </style>
+
+COMBINE SELECTOR:-
+element with clss selector(selector.class)
+child(direct) selector[selector > selector]
+descendent seloctor[seloctor selector]
