@@ -13,3 +13,23 @@ COMBINE SELECTOR:-
 element with clss selector(selector.class)
 child(direct) selector[selector > selector]
 descendent seloctor[seloctor selector]
+
+pseudo-class selector:-
+selector:pseudo-class{}-:link,:visited,:hover,:active,:nth-child
+
+style placement:-
+ external style placement:-
+  <head>
+  <link rel="stylesheet" href="style.css">
+  </head>
+ internal style placement:-
+ <p,div,h1... style="declarations:value;">hello world</p,/div,/h1...>
+
+ Conflict resoultion:-
+  origin precedencr:-
+   last declarations wins because html processed from top to bottom.
+  declarations merge:-
+   So a declaration for, for example, font size, and a declaration for color
+   since they're two different properties, when they're targeted to the same element
+   even if they're targeted from two different origins, they will merge into one.
+  
