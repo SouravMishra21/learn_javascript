@@ -1,6 +1,7 @@
 browser-sync start --server --directory --files "*" -->start browser sync
 git branch -->to know branch
 git checkout (branch name) -->to change branch
+git fetch --all 
 
 commit steps
 1)git status-->to check if the file is stage(red)
