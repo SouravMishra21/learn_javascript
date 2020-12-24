@@ -1,7 +1,7 @@
 CSS selectors:-
-element
-class(start with ".")
-id(start with "#")
+ element
+ class(start with ".")
+ id(start with "#")
 
 Eg- <style>
 __     ,.__ , #__ { 
@@ -10,12 +10,12 @@ __     ,.__ , #__ {
     </style>
 
 COMBINE SELECTOR:-
-element with clss selector(selector.class)
-child(direct) selector[selector > selector]
-descendent seloctor[seloctor selector]
+ element with clss selector(selector.class)
+ child(direct) selector[selector > selector]
+ descendent seloctor[seloctor selector]
 
 pseudo-class selector:-
-selector:pseudo-class{}-:link,:visited,:hover,:active,:nth-child
+ selector:pseudo-class{}-:link,:visited,:hover,:active,:nth-child
 
 style placement:-
  external style placement:-
@@ -25,11 +25,20 @@ style placement:-
  internal style placement:-
  <p,div,h1... style="declarations:value;">hello world</p,/div,/h1...>
 
- Conflict resoultion:-
+Conflict resoultion:-
   origin precedencr:-
    last declarations wins because html processed from top to bottom.
   declarations merge:-
    So a declaration for, for example, font size, and a declaration for color
    since they're two different properties, when they're targeted to the same element
    even if they're targeted from two different origins, they will merge into one.
+  inheritance:-
+    if you specify some CSS property on some element, all the children and grandchildren and
+    so on and so on of that element will also inherit that property without you having to specify
+    the property for each and every element.
+  specificity:-
+    style=""/id/class,pseudo-class,attribute/#element
+    The selectors with the highest score win from left to right.
+  NOTE:- !important (is used to force the declare that declaration in style)
+
   
